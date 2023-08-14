@@ -1,0 +1,14 @@
+Including {'exonic;splicing', 'splicing', 'exonic'} in RefGeneLocation, 149474 variants -> 4676 variants
+Excluding synonymous SNV in RefGeneExonFunction, except for exonic:splicing variants 4676 variants -> 3072 variants
+Excluding if value is greater than, 0.01 in selected MAF projects, 3072 variants -> 2984 variants
+
+Including het in Genotype 2984 variants -> 1910 variants
+Including if start position is in all affected members with het Genotype 1910 variants -> 1910 variants
+Excluding if start position is in any unaffected members with hom Genotype, 1910 variants -> 314 variants
+# Note: analysis above obtained variants with AD_IM inheritance, and analysis on them for AR_CH inheritance continues below
+Excluding variants in a gene with single variants, 314 variants -> 119 variants
+Excluding variants with single parent inheritance, 119 variants -> 119 variants
+Excluding gene if all start positions are in any unaffected members for each gene, 119 variants -> 119 variants
+Initial proband count = 2984 / Final count = 119
+
+
