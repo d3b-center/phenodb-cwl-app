@@ -1,0 +1,10 @@
+Including {'exonic;splicing', 'splicing', 'exonic'} in RefGeneLocation, 149474 variants -> 4676 variants
+Excluding synonymous SNV in RefGeneExonFunction, except for exonic:splicing variants 4676 variants -> 3072 variants
+Excluding if value is greater than, 0.01 in selected MAF projects, 3072 variants -> 2984 variants
+
+Including hom in Genotype 2984 variants -> 1074 variants
+Including if start position is in all affected members with hom Genotype, 1074 variants -> 1074 variants
+Excluding if start position is in any unaffected members with hom Genotype, 1074 variants -> 188 variants
+Initial proband count = 2984 / Final count = 188
+
+

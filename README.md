@@ -1,22 +1,22 @@
-# D3b Bixu Repository Template
+# PhenoDB CWL App
 
-Use this template to bootstrap a new D3b bixu repository 
+This repository contains user instructions, sample data, and source code for
+the version of the PhenoDB application hosted on Cavatica.
 
-### Badges
+For more information about PhenoDB, please go to https://phenodb.org/about.
 
-Update the LICENSE badge to point to the new repo location on GitHub.
-Note that the LICENSE badge will fail to render correctly unless the repo has
-been set to **public**.
-
-Add additional badges for CI, docs, and other integrations as needed within the
-`<p>` tag next to the LICENSE.
 
 ### Repo Description
 
-Update the repositories description with a short summary of the repository's
-intent.
-Include an appropriate emoji at the start of the summary.
+The PhenoDB workflow is done in two independent steps that are each a
+separate code base and app on Cavatica. The first step is Annovar annotation, 
+and the second step is variant analysis.
 
-Add a handful of tags that summarize topics relating to the repository.
-If the repo has a documentation site or webpage, add it next to the repository
-description.
+PhenoDB_Cavatica_User_Guide.pdf: instructions with screenshots of how to use the two apps
+
+example_inputs_results: example input files to run in the applications, and example results
+of an analysis
+
+annovar_app: Dockerfile, CWL and python files for first step's app
+
+analysis_app: Dockerfile, CWL and python files for second step's app
